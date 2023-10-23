@@ -1,0 +1,23 @@
+.lorem {
+  padding: 0, 18px;
+  background-color: blueviolet;
+  display: none;
+  overflow: hidden;
+}
+
+.acordion {
+  background: gray;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-align: left;
+  transition: 0.45s;
+}
+
+.active,
+.acordion:hover {
+  background-color: white;
+}
